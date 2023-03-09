@@ -1,0 +1,7 @@
+.gallery__wrapper2 {
+    width:95%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}

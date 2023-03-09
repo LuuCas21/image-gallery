@@ -1,0 +1,12 @@
+.gallery__wrapper {
+    width:95%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+img {
+    width:250px;
+    height:250px;
+}

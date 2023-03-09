@@ -1,0 +1,15 @@
+.pagination__div {
+    width:100%;
+    height:auto;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20px;
+}
+
+.pagination__div > button {
+    padding:10px 25px;
+    cursor:pointer;
+    font-size:17px;
+}
