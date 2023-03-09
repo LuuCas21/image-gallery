@@ -1,4 +1,5 @@
 .remaining__images {
+    position:relative;
     width:250px;
     height:250px;
     margin:10px;
@@ -7,7 +8,7 @@
 .remaining__images > img {
     width:100%;
     height:100%;
-} 
+}  
 
 @media screen and (max-width:570px) {
     .remaining__images {

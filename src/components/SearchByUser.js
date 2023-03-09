@@ -33,3 +33,5 @@ const SearchByUser = (props) => {
 }
 
 export default SearchByUser;
+
+//onChange={getSearchInput}
