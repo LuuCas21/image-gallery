@@ -51,19 +51,3 @@ const GalleryWrapper = (props) => {
 };
 
 export default GalleryWrapper;
-
-/* 
-{images.filter((el) => {
-                if (props.onReturnUserName === '') {
-                    return el;
-
-                } else if (el.user.username.includes(props.onReturnUserName)) {
-                    return el;
-                }
-            }).map(image => <GalleryImages key={image.id} imageUrl={image.urls.small} imageAlt={image.alt_description}/>)}
-*/
-/*{secondPage.map(secondImage => <GalleryImages key={secondImage.id} imageUrl={secondImage.urls.small} imageAlt={secondImage.alt_description}/>)}
-            {thirdPage.map(thirdImage => <GalleryImages key={thirdImage.id} imageUrl={thirdImage.urls.small} imageAlt={thirdImage.alt_description}/>)} */
-
-/* <RemainingImages imageSource={IMAGES.image_1}/>
-            <RemainingImages imageSource={IMAGES.image_2}/> */
