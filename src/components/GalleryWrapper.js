@@ -14,12 +14,12 @@ const GalleryWrapper = (props) => {
     const getImagesData = () => {
 
         Promise.all([
-        fetch(`https://api.unsplash.com/search/photos?page=1&query=${props.onReturnUserName}&client_id=vh6ZMVPG_1Uv3mdAfdLGefF7gOwA5HiwdeFETQcoNnc`).then(value => value.json()),
-        fetch(`https://api.unsplash.com/search/photos?page=2&query=${props.onReturnUserName}&client_id=vh6ZMVPG_1Uv3mdAfdLGefF7gOwA5HiwdeFETQcoNnc`).then(value => value.json()),
-        fetch(`https://api.unsplash.com/search/photos?page=3&query=${props.onReturnUserName}&client_id=vh6ZMVPG_1Uv3mdAfdLGefF7gOwA5HiwdeFETQcoNnc`).then(value => value.json()),
-        fetch(`https://api.unsplash.com/search/photos?page=4&query=${props.onReturnUserName}&client_id=vh6ZMVPG_1Uv3mdAfdLGefF7gOwA5HiwdeFETQcoNnc`).then(value => value.json()),
-        fetch(`https://api.unsplash.com/search/photos?page=5&query=${props.onReturnUserName}&client_id=vh6ZMVPG_1Uv3mdAfdLGefF7gOwA5HiwdeFETQcoNnc`).then(value => value.json()),
-        fetch(`https://api.unsplash.com/search/photos?page=6&query=${props.onReturnUserName}&client_id=vh6ZMVPG_1Uv3mdAfdLGefF7gOwA5HiwdeFETQcoNnc`).then(value => value.json())
+        fetch(`https://api.unsplash.com/search/photos?page=1&query=${props.onReturnUserName}&client_id=KEY`).then(value => value.json()),
+        fetch(`https://api.unsplash.com/search/photos?page=2&query=${props.onReturnUserName}&client_id=KEY`).then(value => value.json()),
+        fetch(`https://api.unsplash.com/search/photos?page=3&query=${props.onReturnUserName}&client_id=KEY`).then(value => value.json()),
+        fetch(`https://api.unsplash.com/search/photos?page=4&query=${props.onReturnUserName}&client_id=KEY`).then(value => value.json()),
+        fetch(`https://api.unsplash.com/search/photos?page=5&query=${props.onReturnUserName}&client_id=KEY`).then(value => value.json()),
+        fetch(`https://api.unsplash.com/search/photos?page=6&query=${props.onReturnUserName}&client_id=KEY`).then(value => value.json())
         ])
         .then(data => {
             setImages(data[0].results);
